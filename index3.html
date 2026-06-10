@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title> Contact form </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact.css">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init({
+                publicKey: "OiNGeMktUqbD6kNMo",
+            });
+         })();
+    </script>
+    
+</head>
+
+<body style="position: relative;">
+     <div style="z-index: 0; position: absolute; height: 100vh; width: 100%;">
+            <img src="contact.png" width="100%"class="background-image" alt="solar contact">
+        </div>
+         <div style="z-index: 999; display: block; position: relative;">
+           <h1>Contact Us</h1><br>
+            <form onsubmit="sendMail(event)">
+   
+        <label for="first_name">first name:</label><br>
+        <input type="text" id="first_name" placeholder="First Name" name="first_name" required>
+        <br>
+        <br>
+
+        <label for="last_name">last name:</label><br>
+        <input type="text" id="last_name" placeholder="Last Name" name="last_name" required><br><br>
+
+        <label for="Mobile">Mobile no.:</label><br>
+        <input type="tel" id="Mobile" name="Mobile" required><br><br>
+
+        <label for="Email">Email:</label><br>
+        <input type="Email" id="Email" name="Email" required><br><br>
+
+        <label for="Message">Message:</label><br>
+        <textarea id="Message" name="Message" rows="4" cols="50" ></textarea><br><br>
+
+        <button type="submit">Submit</button>
+        </div>
+    </form>
+   
+<script src="contact.js"></script>
+</body>
+</html>
