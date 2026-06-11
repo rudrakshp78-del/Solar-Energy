@@ -74,6 +74,8 @@ nav ul li a{
 }
 .hero-text{
     position: absolute;
+    display: flex;
+    gap: 15px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
