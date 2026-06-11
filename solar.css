@@ -56,8 +56,9 @@ logo.p{
    font-size: 16px;
 }
 nav ul{
-  list-style: none;
+  list-style: row;
     display: flex;
+    justify-content: right
 }
 nav ul li{
  margin-left: 20px;
