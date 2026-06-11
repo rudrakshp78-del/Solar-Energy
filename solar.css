@@ -55,8 +55,8 @@ logo.p{
    color: #fff;
    font-size: 16px;
 }
-nav ul{
-  list-style: row;
+nav ol{
+    list-style: row;
     display: flex;
     justify-content: right
 }
