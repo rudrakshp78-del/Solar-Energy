@@ -57,9 +57,10 @@ logo.p{
    font-size: 16px;
 }
 nav ol{
-    list-style: row;
+    list-style: none;
     gap: 35px;
     display: flex;
+    justify-content: center;
     font-size: 24px;
 
 }
