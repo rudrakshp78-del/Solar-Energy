@@ -16,7 +16,7 @@ main{
 .Top-bar{
     margin: 0px;    
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 15px;
     padding: 12px 40px 8px 40px;
     line-height: 1.1;
