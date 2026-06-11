@@ -13,10 +13,6 @@ main{
    padding-top: 20px;
 }
 
-
-.banner, .hero, header{
-    position: relative;
-}
 .Top-bar{
     margin: 0px;    
     display: flex;
@@ -28,8 +24,6 @@ main{
 
 }
 .hero{
-    background-size: cover;
-    background-position: center;
     min-height: 60vh;
     height: auto;
 }
