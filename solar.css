@@ -57,6 +57,7 @@ logo.p{
    font-size: 16px;
 }
 nav ul{
+    padding-top: 15px;
     list-style: none;
     gap: 35px;
     display: flex;
