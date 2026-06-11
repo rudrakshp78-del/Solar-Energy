@@ -58,7 +58,7 @@ logo.p{
 }
 nav ol{
     list-style: row;
-    gap: 15px;
+    gap: 35px;
     display: flex;
     font-size: 24px;
 
