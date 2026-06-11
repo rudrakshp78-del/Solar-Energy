@@ -74,6 +74,7 @@ nav ul li a{
 }
 .hero-text{
     position: absolute;
+    list-style: row;
     display: flex;
     gap: 15px;
     top: 50%;
