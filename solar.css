@@ -59,7 +59,7 @@ nav ol{
     list-style: row;
     gap: 15px;
     display: flex;
-    justify-content: right
+
 }
 nav ul li{
  margin-left: 20px;
